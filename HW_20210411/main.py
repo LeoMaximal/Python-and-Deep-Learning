@@ -1,3 +1,4 @@
+# using MediaWiki API to get most viewed de.wikipedia articles of the day and get random articles
 from utils import *
 import sys
 from PyQt5.QtWidgets import QApplication, QDialog, QLabel, QPushButton, QGridLayout
@@ -32,7 +33,7 @@ class wiki_rank(QDialog): #define a class to show the the weekly rank of article
 
     def show_rand(self):
         str = get_rand()
-        self.text.setText(str)
+        self.text.setText(str) #show random articles
     
 if __name__ == '__main__':
     a = QApplication(sys.argv)

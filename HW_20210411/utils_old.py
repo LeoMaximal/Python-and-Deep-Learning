@@ -1,3 +1,4 @@
+# get wikipedia weekly popular articles by fetching html
 import requests
 from bs4 import BeautifulSoup
 

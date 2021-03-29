@@ -1,3 +1,4 @@
+# get wikipedia weekly popular articles by fetching html
 from utils_old import *
 import sys
 from PyQt5.QtWidgets import QApplication, QDialog, QLabel, QPushButton, QGridLayout
