@@ -3,7 +3,7 @@ from utils import *
 import sys
 from PyQt5.QtWidgets import QApplication, QDialog, QLabel, QPushButton, QGridLayout
 
-class wiki_rank(QDialog): #define a class to show the the weekly rank of articles from Wikiprdia
+class wiki_rank(QDialog): #define a class to show the rank of articles from Wikiprdia
     def __init__(self):
         super().__init__()
         
